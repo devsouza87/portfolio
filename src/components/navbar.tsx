@@ -12,17 +12,17 @@ export function NavBar() {
           PORTFOLIO
         </Link>
         <nav className="hidden items-center gap-6 text-md font-medium text-gray-400 md:flex">
-          <Link href="#sobre" className="transition-colors hover:text-gray-200">
+          <Link href="#about" className="transition-colors hover:text-gray-200">
             Sobre
           </Link>
           <Link
-            href="#projetos"
+            href="#projects"
             className="transition-colors hover:text-gray-200"
           >
             Projetos
           </Link>
           <Link
-            href="#contato"
+            href="#contact"
             className="transition-colors hover:text-gray-200"
           >
             contato
