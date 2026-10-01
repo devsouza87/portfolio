@@ -15,7 +15,7 @@ const skills = [
 
 export function AboutSection() {
   return (
-    <section id="about" className="py-16 md:py-24">
+    <section id="about" className="py-16">
       <div className="container mx-auto max-w-6xl px-4">
         <h2 className="text-gray-600 text-2xl font-bold tracking-tight md:text-3xl">
           Sobre
