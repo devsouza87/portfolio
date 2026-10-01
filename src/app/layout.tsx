@@ -13,7 +13,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="pt-br" className="dark scroll-smooth">
-      <body className={`${roboto.className} antialiased`}>{children}</body>
+      <body
+        className={`${roboto.className} antialiased bg-gray-900 text-gray-400`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
