@@ -29,7 +29,7 @@ export function NavBar() {
           </Link>
         </nav>
         <Button
-          className={`bg-blue-400 text-gray-800 hover:bg-blue-300 font-medium`}
+          className={`bg-blue-400 text-gray-800 hover:bg-blue-300 font-medium hidden`}
         >
           <a href="">Download CV</a>
         </Button>
